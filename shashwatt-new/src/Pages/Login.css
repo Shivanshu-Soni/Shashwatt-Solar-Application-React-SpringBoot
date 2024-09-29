@@ -1,0 +1,7 @@
+.background-image {
+    background-image: url('../Images/login.png');
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh; /* Set a minimum height to ensure the image covers the entire viewport */
+  }
+  

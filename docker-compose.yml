@@ -1,0 +1,16 @@
+
+version: '3'
+
+services:
+  react-app:
+    image: your-react-image-name
+    ports:
+      - "3000:3000"
+
+  spring-boot-app:
+    image: your-spring-boot-image-name
+    ports:
+      - "8080:8080"
+    depends_on:
+      - react-app
+
